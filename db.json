@@ -1,0 +1,34 @@
+{
+  "city": [
+    {
+      "country": "America",
+      "cityName": "NewYork",
+      "population": "7000000",
+      "id": 1
+    },
+    {
+      "country": "India",
+      "cityName": "Dehli",
+      "population": "1001001",
+      "id": 2
+    },
+    {
+      "country": "india",
+      "cityName": "Kolkata",
+      "population": "1001010",
+      "id": 3
+    },
+    {
+      "country": "ACVVAQ",
+      "cityName": "FSDGS",
+      "population": "12334",
+      "id": 4
+    },
+    {
+      "country": "afkajd;fjadf",
+      "cityName": "a;dkfja;",
+      "population": "12049201",
+      "id": 5
+    }
+  ]
+}
