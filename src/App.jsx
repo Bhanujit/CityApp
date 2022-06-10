@@ -14,13 +14,15 @@ function App() {
     setNation(val)
   }
   const [data,setData] = useState([])
-  function getData (){
-    axios.get(`http://localhost:8080/city`)
+  function getData (url){
+    axios.get(url)
     .then((res)=>{setData(res.data)})
   }
   useEffect(()=>{
-    getData()
+    getData(`http://localhost:8080/city`)
   },[])
+ 
+  
   return (
     <div>
     <Routes>

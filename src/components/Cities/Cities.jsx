@@ -59,7 +59,7 @@ export const Cities = ({desh,dataDo}) => {
       <Container>
         <Input type="text" name='cityName' placeholder='Enter City Name...'
         onChange={formHandler}/>
-        <Input type="Number" name='population' placeholder='Enter City Population...'
+        <Input type='number' name='population' placeholder='Enter City Population...'
         onChange={formHandler}/>
         <Button
         onClick={()=>{
